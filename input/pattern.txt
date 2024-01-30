@@ -1,0 +1,50 @@
+loadSettleInsInf_call_error exit program, errno: [CODE]
+load SettleInsInf failed.
+error when flow_init
+[CODE]-[Database rollback failed]
+[CODE]-[Database operation still fails after retrying]
+[CODE]-[sqlState:[HY000]]
+[CODE]-[Database operation failed]
+[CODE]-[sqlErrno:[2013]]
+DataBase update exception[logId=[CODE]]: [transIdx=[CODE], txnType=[CODE], acqInsCode=[CODE], txnNo=[CODE], txnDate=[DATE], update transFlow finished, but no rows update and no db exception!]
+DataBase update exception[logId=[CODE]]: [txnType=[CODE], acqInsCode=[CODE], txnNo=[CODE], txnDate=[DATE], SettleUpdateFlowTask failDoo]
+Liquidation  date [DATE] Job[CODE] Session [CODE] Batch [CODE] Initiation time [DATE] Has been executed for [NUMBER] seconds, exceeding [NUMBER]% of the threshold [NUMBER], please pay attention!
+Request for liquidation date [DATE] Session [CODE] Batch[CODE]
+The [STRING] application files have not been submitted completely.
+[STRING] application files are not complete, please contact [STRING] [NUMBER]
+[CODE][read returns [CODE], the service calling system actively closes the connection]
+[CODE][Communication Gateway[CODE] has established a connection with the system [STRING][IP]]
+[CODE][Failed to establish a connection, sessionID[CODE], remoteIp[IP], remptePort[CODE]]
+[CODE][Failed to establish a connection, server [IP], port [CODE]]
+[CODE] [Disconnect the connection to the node [IP] [CODE]]
+[CODE] [Receive idle message timeout]
+[CODE] [child process pid[CODE] died]
+[CODE]-[Record pid after starting child process[CODE]]
+[CODE]-[CODE]-[CODE]-Find the table in shared memory [STRING] failed
+[CODE][CODE][communication host[CODE]][communication server received the application server anomaly [CODE] for [NUMBER] times -> normal request; please manually modify the status of the application host to be normal: last time [DATE], this time [DATE]]
+[CODE][CODE][Communication host [CODE]][The status of the application server [CODE] in [STRING] is ERROR]
+[CODE][Non-blocking connect call timeout [STRING]:[CODE]]
+[CODE] [NUMBER] remaining bus nodes [not be isolated]
+[CODE][Failed to call poll [STRING]:[CODE], [CODE][Operation now in progress]]
+[ADDRESS] [CODE] [APPLICATION] Tool room [monitoring indicators] Tool room application FullGC exception [monitoring instance] @[STRING] [message] [DATE], the latest monitoring value is [CODE], has been higher than the threshold for [NUMBER] time: [CODE]/[STRING]
+Internet access-web application alert-application traffic is higher than historical peak-[STRING]-bit rate: [NUMBER] Mbps_>= [NUMBER] Mbps
+Failed to send the second-generation feedback file, FaultCode=[CODE], FaultString=[STRING], FileName=[STRING], CompanyCode=[CODE]
+Failed to receive CSB return message
+fail to fix channel [IP]
+server [IP] has lose connection from remote client [IP]
+Exception found at server [IP] when handle the message
+[CODE] The short connection with the endpoint [IP] is timed out, actively close the connection [CODE]
+The bookkeeping information failed to be stored in the database, data source [STRING,] account [CODE], insufficient balance
+Abnormal termination
+Business operation error
+TaskVO{settleData=[CODE], cycleNO=[CODE], batchNo=[CODE], stepNo=[null], subNo=[null]}: [IP] Execution failed
+[CODE] The current task [CODE] (business date [DATE]) failed to execute
+Get backstage system [CUDAS] session [[CODE]: Generate account balance] [CODE] execution status [CODE], the status is wrong
+The reason for the error returned by the system [STRING]: the daily report file is not exist : [STRING].log
+Get the background system [STRING] session [YPOS: Cloud POS briefing result file check (for the briefing of Team II)] [CODE] The execution status is [CODE], the status is wrong
+System function [CODE] failed, session [CODE] channel_out [CODE], unknown event ret [CODE], revents [CODE]
+SESSION [IP] failed to complete the connection within the timeout period [CODE]
+Preconditions are not met, job flow [CODE], session [CODE], batch [CODE], pre-condition serial number [CODE]
+The reason for the error returned by the system [CUDAS]: task execution failed
+Management operation-node is isolated [STRING]
+Failed to establish link [[IP] [STRING]]

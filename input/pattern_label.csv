@@ -1,0 +1,53 @@
+ID,LEVEL,Content,Template,Pattern
+19,ERROR,-,"loadSettleInsInf_call_error exit program, errno: [CODE]",1
+20,ERROR,-,load SettleInsInf failed.,1
+21,ERROR,-,error when flow_init,1
+46,ERROR,-,[CODE]-[Database rollback failed],3
+47,ERROR,-,[CODE]-[Database operation still fails after retrying],3
+48,ERROR,-,[CODE]-[sqlState:[HY000]],3
+49,ERROR,-,[CODE]-[Database operation failed],3
+50,ERROR,-,[CODE]-[sqlErrno:[2013]],3
+22,ERROR,-,"DataBase update exception[logId=[CODE]]: [transIdx=[CODE], txnType=[CODE], acqInsCode=[CODE], txnNo=[CODE], txnDate=[DATE], update transFlow finished, but no rows update and no db exception!]",4
+23,ERROR,-,"DataBase update exception[logId=[CODE]]: [txnType=[CODE], acqInsCode=[CODE], txnNo=[CODE], txnDate=[DATE], SettleUpdateFlowTask failDoo]",4
+45,ERROR,-,Task Error (Availability (New Authorization Management Platform_Production Address Direct Access to [STRING] Alert_[IP]))[IP],5
+43,ERROR,-,"Liquidation  date [DATE] Job[CODE] Session [CODE] Batch [CODE] Initiation time [DATE] Has been executed for [NUMBER] seconds, exceeding [NUMBER]% of the threshold [NUMBER], please pay attention!",6
+44,ERROR,-,Request for liquidation date [DATE] Session [CODE] Batch[CODE],6
+41,ERROR,-,The [STRING] application files have not been submitted completely.,7
+42,ERROR,-,"[STRING] application files are not complete, please contact [STRING] [NUMBER]",7
+39,ERROR,-,"[CODE][read returns [CODE], the service calling system actively closes the connection]",8
+40,ERROR,-,[CODE][Communication Gateway[CODE] has established a connection with the system [STRING][IP]],8
+24,FATAL,-,"[ADDRESS] [CODE] [APPLICATION] Tool room [monitoring indicators] Tool room application FullGC exception [monitoring instance] @[STRING] [message] [DATE], the latest monitoring value is [CODE], has been higher than the threshold for [NUMBER] time: [CODE]/[STRING]",9
+34,ERROR,-,"[CODE][Failed to establish a connection, sessionID[CODE], remoteIp[IP], remptePort[CODE]]",10
+35,ERROR,-,"[CODE][Failed to establish a connection, server [IP], port [CODE]]",10
+36,ERROR,-,[CODE] [Disconnect the connection to the node [IP] [CODE]],10
+37,ERROR,-,[CODE] [Receive idle message timeout],10
+32,ERROR,-,[CODE] [child process pid[CODE] died],11
+33,ERROR,-,[CODE]-[Record pid after starting child process[CODE]],11
+26,ERROR,-,[CODE]-[CODE]-[CODE]-Find the table in shared memory [STRING] failed,12
+27,ERROR,-,"[CODE][CODE][communication host[CODE]][communication server received the application server anomaly [CODE] for [NUMBER] times -> normal request; please manually modify the status of the application host to be normal: last time [DATE], this time [DATE]]",12
+28,ERROR,-,[CODE][CODE][Communication host [CODE]][The status of the application server [CODE] in [STRING] is ERROR],12
+29,ERROR,-,[CODE][Non-blocking connect call timeout [STRING]:[CODE]],12
+30,ERROR,-,[CODE] [NUMBER] remaining bus nodes [not be isolated],12
+31,ERROR,-,"[CODE][Failed to call poll [STRING]:[CODE], [CODE][Operation now in progress]]",12
+24,FATAL,-,"[ADDRESS] [CODE] [APPLICATION] Tool room [monitoring indicators] Tool room application FullGC exception [monitoring instance] @[STRING] [message] [DATE], the latest monitoring value is [CODE], has been higher than the threshold for [NUMBER] time: [CODE]/[STRING]",13
+25,FATAL,-,Internet access-web application alert-application traffic is higher than historical peak-[STRING]-bit rate: [NUMBER] Mbps_>= [NUMBER] Mbps,13
+5,ERROR,-,"Failed to send the second-generation feedback file, FaultCode=[CODE], FaultString=[STRING], FileName=[STRING], CompanyCode=[CODE]",14
+6,ERROR,-,Failed to receive CSB return message,14
+1,ERROR,-,fail to fix channel [IP],15
+2,ERROR,-,server [IP] has lose connection from remote client [IP],15
+3,ERROR,-,Exception found at server [IP] when handle the message,15
+4,ERROR,-,"[CODE] The short connection with the endpoint [IP] is timed out, actively close the connection [CODE]",15
+13,ERROR,-,"The bookkeeping information failed to be stored in the database, data source [STRING,] account [CODE], insufficient balance",16
+14,ERROR,-,Abnormal termination,16
+15,ERROR,-,Business operation error,16
+16,ERROR,-,"TaskVO{settleData=[CODE], cycleNO=[CODE], batchNo=[CODE], stepNo=[null], subNo=[null]}: [IP] Execution failed",16
+17,ERROR,-,[CODE] The current task [CODE] (business date [DATE]) failed to execute,16
+18,ERROR,-,"Get backstage system [CUDAS] session [[CODE]: Generate account balance] [CODE] execution status [CODE], the status is wrong",16
+11,ERROR,-,The reason for the error returned by the system [STRING]: the daily report file is not exist : [STRING].log,17
+12,ERROR,-,"Get the background system [STRING] session [YPOS: Cloud POS briefing result file check (for the briefing of Team II)] [CODE] The execution status is [CODE], the status is wrong",17
+7,ERROR,-,"System function [CODE] failed, session [CODE] channel_out [CODE], unknown event ret [CODE], revents [CODE]",18
+8,ERROR,-,SESSION [IP] failed to complete the connection within the timeout period [CODE],18
+9,ERROR,-,"Preconditions are not met, job flow [CODE], session [CODE], batch [CODE], pre-condition serial number [CODE]",19
+10,ERROR,-,The reason for the error returned by the system [CUDAS]: task execution failed,19
+51,ERROR,-,Management operation-node is isolated [STRING],20
+52,ERROR,-,Failed to establish link [[IP] [STRING]],20
